@@ -13,13 +13,13 @@ Provisioning is handled via **shell scripts (`.sh`)**, ensuring each VM is confi
 
 ---
 ## 📂 Project Structure
-Vagrantfile              # Defines 5 VMs and provisioning steps 
-backend.sh               # Backend app setup 
-nginx.sh                 # Nginx reverse proxy setup
-tomcat.sh                # Tomcat server setup 
-mysql.sh                 # MySQL database setup 
-memcache.sh              # Memcached cache setup 
-rabbitmq.sh              # RabbitMQ broker setup 
+Vagrantfile------# Defines 5 VMs and provisioning steps 
+backend.sh-------# Backend app setup 
+nginx.sh --------# Nginx reverse proxy setup
+tomcat.sh--------# Tomcat server setup 
+mysql.sh---------# MySQL database setup 
+memcache.sh------# Memcached cache setup 
+rabbitmq.sh------# RabbitMQ broker setup 
 
 
 ---
