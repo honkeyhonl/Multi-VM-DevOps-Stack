@@ -31,3 +31,16 @@ Provisioning is handled via **shell scripts (`.sh`)**, ensuring each VM is confi
 1. Clone the repository:
    git clone https://github.com/<your-username>/Multi-VM-DevOps-Stack.git
    cd Multi-VM-DevOps-Stack
+   
+2. Start the environment:
+   vagrant up
+   
+3. Login to web01
+   vagrant ssh web01
+   
+4. Check for IP address
+   ip addr show
+   
+5. Copy the IP and run it in your browser
+    
+6. Browse through various pages and tabs of the site to ensure everything is working fine. 
