@@ -11,18 +11,14 @@ It provisions five virtual machines automatically, each running a key service in
 
 Provisioning is handled via **shell scripts (`.sh`)**, ensuring each VM is configured consistently and reproducibly.
 
----
 ## 📂 Project Structure
-Vagrantfile------# Defines 5 VMs and provisioning steps 
-backend.sh-------# Backend app setup 
-nginx.sh --------# Nginx reverse proxy setup
-tomcat.sh--------# Tomcat server setup 
-mysql.sh---------# MySQL database setup 
-memcache.sh------# Memcached cache setup 
-rabbitmq.sh------# RabbitMQ broker setup 
-
-
----
+- Vagrantfile------# Defines 5 VMs and provisioning steps 
+- backend.sh-------# Backend app setup 
+- nginx.sh --------# Nginx reverse proxy setup
+- tomcat.sh--------# Tomcat server setup 
+- mysql.sh---------# MySQL database setup 
+- memcache.sh------# Memcached cache setup 
+- rabbitmq.sh------# RabbitMQ broker setup 
 
 ## Getting Started
 
@@ -33,6 +29,5 @@ rabbitmq.sh------# RabbitMQ broker setup
 
 ### Setup
 1. Clone the repository:
-   ```bash
    git clone https://github.com/<your-username>/Multi-VM-DevOps-Stack.git
    cd Multi-VM-DevOps-Stack
